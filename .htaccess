@@ -1,0 +1,101 @@
+#Turn Rewrite Engine On
+RewriteEngine On
+
+#Remove .php extension form user.php
+RewriteRule ^api/user/single/?$ api/user/single.php [NC,L]
+RewriteRule ^api/user/update/?$ api/user/update.php [NC,L]
+RewriteRule ^api/user/delete/?$ api/user/delete.php [NC,L]
+RewriteRule ^api/user/read/?$ api/user/read.php [NC,L]
+RewriteRule ^api/user/create/?$ api/user/create.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^api/user/single/([0-9]+)/?$ api/user/single.php?id=$1 [NC,L]
+RewriteRule ^api/user/update/([0-9]+)/?$ api/user/update.php?id=$1 [NC,L]
+RewriteRule ^api/user/delete/([0-9]+)/?$ api/user/delete.php?id=$1 [NC,L]
+RewriteRule ^api/user/read/([0-9]+)/?$ api/user/read.php [NC,L]
+RewriteRule ^api/user/create/([0-9]+)/?$ api/user/create.php [NC,L]
+
+#Remove .php extension form bus.php
+RewriteRule ^api/bus/single/?$ api/bus/single.php [NC,L]
+RewriteRule ^api/bus/update/?$ api/bus/update.php [NC,L]
+RewriteRule ^api/bus/delete/?$ api/bus/delete.php [NC,L]
+RewriteRule ^api/bus/read/?$ api/bus/read.php [NC,L]
+RewriteRule ^api/bus/create/?$ api/bus/create.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^api/bus/single/([0-9]+)/?$ api/bus/single.php?id=$1 [NC,L]
+RewriteRule ^api/bus/update/([0-9]+)/?$ api/bus/update.php?id=$1 [NC,L]
+RewriteRule ^api/bus/delete/([0-9]+)/?$ api/bus/delete.php?id=$1 [NC,L]
+RewriteRule ^api/bus/read/([0-9]+)/?$ api/bus/read.php [NC,L]
+RewriteRule ^api/bus/create/([0-9]+)/?$ api/bus/create.php [NC,L]
+
+#Remove .php extension form customer.php
+RewriteRule ^api/customer/single/?$ api/customer/single.php [NC,L]
+RewriteRule ^api/customer/update/?$ api/customer/update.php [NC,L]
+RewriteRule ^api/customer/delete/?$ api/customer/delete.php [NC,L]
+RewriteRule ^api/customer/read/?$ api/customer/read.php [NC,L]
+RewriteRule ^api/customer/create/?$ api/customer/create.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^api/customer/single/([0-9]+)/?$ api/customer/single.php?id=$1 [NC,L]
+RewriteRule ^api/customer/update/([0-9]+)/?$ api/customer/update.php?id=$1 [NC,L]
+RewriteRule ^api/customer/delete/([0-9]+)/?$ api/customer/delete.php?id=$1 [NC,L]
+RewriteRule ^api/customer/read/([0-9]+)/?$ api/customer/read.php [NC,L]
+RewriteRule ^api/customer/create/([0-9]+)/?$ api/customer/create.php [NC,L]
+
+#Remove .php extension form driver.php
+RewriteRule ^api/driver/single/?$ api/driver/single.php [NC,L]
+RewriteRule ^api/driver/update/?$ api/driver/update.php [NC,L]
+RewriteRule ^api/driver/delete/?$ api/driver/delete.php [NC,L]
+RewriteRule ^api/driver/read/?$ api/driver/read.php [NC,L]
+RewriteRule ^api/driver/create/?$ api/driver/create.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^api/driver/single/([0-9]+)/?$ api/driver/single.php?id=$1 [NC,L]
+RewriteRule ^api/driver/update/([0-9]+)/?$ api/driver/update.php?id=$1 [NC,L]
+RewriteRule ^api/driver/delete/([0-9]+)/?$ api/driver/delete.php?id=$1 [NC,L]
+RewriteRule ^api/driver/read/([0-9]+)/?$ api/driver/read.php [NC,L]
+RewriteRule ^api/driver/create/([0-9]+)/?$ api/driver/create.php [NC,L]
+
+#Remove .php extension form schedule.php
+RewriteRule ^api/schedule/single/?$ api/schedule/single.php [NC,L]
+RewriteRule ^api/schedule/update/?$ api/schedule/update.php [NC,L]
+RewriteRule ^api/schedule/delete/?$ api/schedule/delete.php [NC,L]
+RewriteRule ^api/schedule/read/?$ api/schedule/read.php [NC,L]
+RewriteRule ^api/schedule/create/?$ api/schedule/create.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^api/schedule/single/([0-9]+)/?$ api/schedule/single.php?id=$1 [NC,L]
+RewriteRule ^api/schedule/update/([0-9]+)/?$ api/schedule/update.php?id=$1 [NC,L]
+RewriteRule ^api/schedule/delete/([0-9]+)/?$ api/schedule/delete.php?id=$1 [NC,L]
+RewriteRule ^api/schedule/read/([0-9]+)/?$ api/schedule/read.php [NC,L]
+RewriteRule ^api/schedule/create/([0-9]+)/?$ api/schedule/create.php [NC,L]
+
+#Remove .php extension form booking.php
+RewriteRule ^api/booking/single/?$ api/booking/single.php [NC,L]
+RewriteRule ^api/booking/update/?$ api/booking/update.php [NC,L]
+RewriteRule ^api/booking/delete/?$ api/booking/delete.php [NC,L]
+RewriteRule ^api/booking/read/?$ api/booking/read.php [NC,L]
+RewriteRule ^api/booking/create/?$ api/booking/create.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^api/booking/single/([0-9]+)/?$ api/booking/single.php?id=$1 [NC,L]
+RewriteRule ^api/booking/update/([0-9]+)/?$ api/booking/update.php?id=$1 [NC,L]
+RewriteRule ^api/booking/delete/([0-9]+)/?$ api/booking/delete.php?id=$1 [NC,L]
+RewriteRule ^api/booking/read/([0-9]+)/?$ api/booking/read.php [NC,L]
+RewriteRule ^api/booking/create/([0-9]+)/?$ api/booking/create.php [NC,L]
+
+#Remove .php extension form customer.php
+RewriteRule ^api/payment/single/?$ api/payment/single.php [NC,L]
+RewriteRule ^api/payment/update/?$ api/payment/update.php [NC,L]
+RewriteRule ^api/payment/delete/?$ api/payment/delete.php [NC,L]
+RewriteRule ^api/payment/read/?$ api/payment/read.php [NC,L]
+RewriteRule ^api/payment/create/?$ api/payment/create.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^api/payment/single/([0-9]+)/?$ api/payment/single.php?id=$1 [NC,L]
+RewriteRule ^api/payment/update/([0-9]+)/?$ api/payment/update.php?id=$1 [NC,L]
+RewriteRule ^api/payment/delete/([0-9]+)/?$ api/payment/delete.php?id=$1 [NC,L]
+RewriteRule ^api/payment/read/([0-9]+)/?$ api/payment/read.php [NC,L]
+RewriteRule ^api/payment/create/([0-9]+)/?$ api/payment/create.php [NC,L]
+
